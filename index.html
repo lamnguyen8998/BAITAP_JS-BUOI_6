@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập thực hành JS 6</title>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <section class="ex1">
+    <h3>Bài tập 1 : Tìm số nguyên dương nhỏ nhất sao cho:
+        1 + 2 + … + n > 10000</h3>
+        
+        <div  style="display: none" class="content content_timsoNguyen" id="soNguyen">
+        </div>
+
+        <button class="nutNhan" onclick="timSoNguyen()">Tìm số Nguyên</button>
+ 
+    </section>
+
+    <section class="ex2">
+        <h3>Bài 2 : Viết chương trình nhập vào 2 số x, n tính tổng: S(n) = x + x^2
+            + x^3 + … + x^n (Sử dụng vòng lặp và hàm)</h3>
+        <div class="form-group">
+          
+          <input type="number" name="" id="nhapSoX" class="form-control" placeholder="Nhập số X" aria-describedby="helpId">
+        
+        </div>
+        <div class="form-group">
+            
+            <input type="number" name="" id="nhapSoN" class="form-control" placeholder="Nhập số N" aria-describedby="helpId">
+            
+          </div>
+
+          <div  style="display: none" class="content content_timsoNguyen" id="ketQuaTinh">
+        </div>
+
+          <button class="nutNhan" onclick="tinhTong()">Tính tổng</button>
+
+
+    </section>
+    <section class="ex3">
+        <h3> Bài 3 : Nhập vào n. Tính giai thừa 1*2*...n</h3>
+        <div class="form-group">
+          
+          <input type="number" name="" id="tinhN" class="form-control" placeholder="Nhập số n">
+        </div>
+
+        <div  style="display: none" class="content content_timsoNguyen" id="tinhGiaiThua">
+        </div>
+
+
+
+        <button class="nutNhan" onclick="giaiThua()">Tính Giai thừa N</button>
+    </section>
+
+<section class=" ex4">
+  <h3> Bài 4 : Hãy viết chương trình khi click vào button sẽ in ra 10 thẻ div.
+    Nếu div nào vị trí chẵn thì background màu đỏ và lẻ thì
+    background màu xanh.</h3>
+
+    <div  style="display: none" class="TaoThe10" id="taoTheDiv">
+        <div>Div lẻ 1</div>
+        <div>Div Chẵn 2</div>
+        <div>Div lẻ 3</div>
+        <div>Div Chẵn 4</div>
+        <div>Div lẻ 5</div>
+        <div>Div Chẵn 6</div>
+        <div>Div lẻ 7</div>
+        <div>Div Chẵn 8</div>
+        <div>Div lẻ 9</div>
+        <div>Div Chẵn 10</div>
+      </div>
+      <button class="nutNhan" onclick="taoTheDiv10()">Tạo Thẻ Div</button>
+
+
+</section>
+
+
+
+    <script src="./JS/main.js"></script>
+</body>
+
+</html>

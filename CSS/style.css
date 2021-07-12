@@ -1,0 +1,27 @@
+.ex1{
+    height: 150px;
+}
+.form-group{
+    width: 350px;
+}
+
+.content_timsoNguyen {
+     height: 40px;
+     width: 350px;
+    background-color: aqua;
+    border-radius: 6px;
+    border: none;
+}
+.content_timsoNguyen p{
+    padding-top: 9px;
+    text-align: center;
+    background-color: aqua;
+    color: black;
+
+}
+.nutNhan{
+    border-radius: 6px;
+    background-color: red;
+    color: white;
+    margin: 15px;
+}
